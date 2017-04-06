@@ -1,0 +1,57 @@
+.project-modal{
+  border: 1px dotted #ddd;
+  border-radius: 4px;;
+  position: relative;
+  height: 137px;
+  display: block;
+  line-height: 1.42857;
+  margin-bottom: 20px;
+  padding: 0px;
+  transition: border 0.2s ease-in-out 0s;
+  .thumbnail{
+  padding: 0;
+    a:{
+      border:0;
+      width:100%;
+    }
+  .icon-bar {
+    width: 100%;
+    background: #dff0d8;
+    opacity: 0.7;
+    list-style: none;
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    li {
+      float: right;
+      margin-right: 10px;
+      .btn{
+        background: transparent;
+        border: none;
+        border-radius: 0;
+        padding: 0;
+      }
+      i{
+        color: red;
+      }
+    }
+  }
+  .caption {
+    padding: 0;
+    a{
+      color: black;
+    }
+  }
+    .modal-trigger{
+      display: block;
+      font-size: 2em;
+      margin:40px auto;
+      opacity: 0.8;
+      .fa-btn{
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+
